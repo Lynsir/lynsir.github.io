@@ -10,6 +10,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
 
+gem 'base64'
+gem 'bigdecimal'
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
 
@@ -23,7 +26,7 @@ group :jekyll_plugins do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows]
 
 # Performance-booster for watching directories on Windows
 # Version updated to 0.2: https://github.com/luost26/academic-homepage/issues/23
